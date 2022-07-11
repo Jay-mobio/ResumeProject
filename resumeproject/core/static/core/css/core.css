@@ -1,4 +1,39 @@
+.st-font{
+    font-family: "Satisfy";
+}
+html,
 body{
-    background-color: aqua;
-    color: red;
+    height: 100%
+}
+.container-fluid{
+    min-height: 100%;
+}
+
+#Service icon color
+.i-color{
+    color: chartreuse;
+}
+
+#Service subtitle color
+.ss-color{
+    color: whitesmoke;
+}
+
+a.nav-link{
+    color: whitesmoke;
+}
+
+a.nav-link:hover{
+    color: black;
+    background-color: #e9cd79;
+}
+
+a.nav-link.active{
+    color: black;
+    background-color: #ffc107;
+    font-weight: bold;
+}
+
+#submit{
+    margin-top: 10px;
 }
